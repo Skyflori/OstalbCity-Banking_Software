@@ -1,0 +1,82 @@
+html,
+body {
+    height: 100%;
+}
+body {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f7f8f9;
+}
+/* SIGN-UP FORM */
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+.form-signin .title {
+    margin-bottom: 2em;
+    font-weight: 700;
+    text-align: center;
+}
+.form-signin .checkbox {
+    font-weight: 400;
+}
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin .form-up {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin .form-mid {
+    margin-bottom: -1px;
+    margin-top: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.form-signin .form-down {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.form-signin .btn-outline-secondary {
+    border-color: transparent;
+}
+
+/* MISC ATTRIBUTES */
+.borderless {
+    border: 0;
+}
+.backgroundless {
+    background-color: transparent;
+}
+.paddingless {
+    padding: 0 !important;
+}
+
+/* INCOMPATIBILITY WARNING */
+.incompatibility-warning-top {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    right: 0;
+    z-index: 464;
+    background-color: rgba(255,0,0,0.5);
+    text-align: center;
+    padding: 0.5em;
+}
